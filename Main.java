@@ -29,9 +29,9 @@ public class Main
     String H ="";
     int i = 0;
     while(i<k.length()){
-      H+=k.substring(i, Math.min(k.length()-1,i+2));
+      H+=k.substring(i, Math.min(k.length(),i+2));
       i+=3;
     }
-    System.out.println(H+k.substring(k.length()-1));
+    System.out.println(H);
   }
 }
